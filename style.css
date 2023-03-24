@@ -1,0 +1,108 @@
+body {
+    background-color: #432371;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #432371;
+    
+}
+
+label {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #714674;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 50px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #714674;
+    color: #000000;
+    font-size: 16px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #432371;
+    color: #ffffff;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #714674;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #9F6976;
+    
+}
+

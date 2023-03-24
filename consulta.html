@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consultar dados</title>
+</head>
+<body>
+	<h1>Dados cadastrados:</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>Endereço</th>
+				<th>Telefone</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="dados">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	<script>
+		// carregar os dados do localStorage e preencher a tabela
+		const dados = JSON.parse(localStorage.getItem('dados'));
+		if (dados) {
+			const tr = document.querySelector('#dados');
+			tr.children[0].textContent = dados.nome;
+			tr.children[1].textContent = dados.endereco;
+			tr.children[2].textContent = dados.telefone;
+		}
+	</script>
+</body>
+</html>
